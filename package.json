@@ -1,0 +1,23 @@
+{
+  "name": "node-movie-normalise",
+  "version": "1.0.0",
+  "description": "Normalise title adding rotten tomatoes ratings to the containing folder and movie file.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pingid/Node-Movie-Normalise.git"
+  },
+  "author": "Dan Beaven <dm.beaven@gmail.com> (http://danbeaven.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pingid/Node-Movie-Normalise/issues"
+  },
+  "homepage": "https://github.com/Pingid/Node-Movie-Normalise#readme",
+  "dependencies": {
+    "cheerio": "0.20.0",
+    "node-fetch": "1.5.3"
+  }
+}
